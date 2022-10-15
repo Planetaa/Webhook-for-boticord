@@ -4,14 +4,14 @@
 
 # Имя события	        
 
-> test_webhook_message	
-> new_bot_comment	      
-> edit_bot_comment	    
-> delete_bot_comment	  
-> new_bot_bump	        
-> new_server_comment	  
-> edit_server_comment	  
-> delete_server_comment	
-> new_server_bump	      
+<br> test_webhook_message	
+<br> new_bot_comment	      
+<br> edit_bot_comment	    
+<br> delete_bot_comment	  
+<br> new_bot_bump	        
+<br> new_server_comment	  
+<br> edit_server_comment	  
+<br> delete_server_comment	
+<br> new_server_bump	      
 
 Ссылка на докментацию: [Тык](https://docs.boticord.top/webhooks/)
