@@ -2,16 +2,16 @@
 
 Пример вебхука для ботикорд.
 
-# Имя события	        Описание события
+# Имя события	        
 
-test_webhook_message	Тестовое сообщение (отправляется в редакторе)
-new_bot_comment	      Отправляется при новом отзыве о боте
-edit_bot_comment	    Отправляется при изменении отзыва о боте
-delete_bot_comment	  Отправляется при удалении отзыва о боте
-new_bot_bump	        Отправляется при оценке бота на сайте
-new_server_comment	  Отправляется при новом отзыве о сервере
-edit_server_comment	  Отправляется при изменении отзыва о сервере
-delete_server_comment	Отправляется при удалении отзыва о сервере
-new_server_bump	      Отправляется при оценке сервера через сервисного бота
+> test_webhook_message	
+> new_bot_comment	      
+> edit_bot_comment	    
+> delete_bot_comment	  
+> new_bot_bump	        
+> new_server_comment	  
+> edit_server_comment	  
+> delete_server_comment	
+> new_server_bump	      
 
 Ссылка на докментацию: [Тык](https://docs.boticord.top/webhooks/)
