@@ -5,9 +5,12 @@ app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
 def new_bot_bump():
-    json = request.get_json()
-    type = json['type']
-    data = json['data']
+    try:
+        json = request.get_json()
+        type = json['type']
+        data = json['data']
+    except:
+        return "Ошибка."
     if type == "new_bot_bump" or "new_server_bump":
         print(f"LOG: Новый ап!\nID {date[id]}")
     elif type == "test_webhook_message":
